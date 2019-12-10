@@ -1,19 +1,24 @@
-INSTALAR EXPRESS GENERATOR
-npm install express-generator -g
+### INSTALAR EXPRESS GENERATOR
 
-PEDIRLE AL GENERATOR QUE GENERE UN PROYECTO
-express --view=ejs nombre-de-la-carpeta
+```npm install express-generator -g```
 
-ENTRAR LA CARPETA
-cd nombre-de-la-carpeta
+### PEDIRLE AL GENERATOR QUE GENERE UN PROYECTO
 
-INSTALAR DEPENDENCIAS
-npm install
+```express --view=ejs nombre-de-la-carpeta```
 
-CAMBIAR EL PACKAGE JSON PARA USAR NODEMON
+### ENTRAR LA CARPETA
+
+```cd nombre-de-la-carpeta```
+
+### INSTALAR DEPENDENCIAS
+
+```npm install```
+
+### CAMBIAR EL PACKAGE JSON PARA USAR NODEMON
 
 Si no tengo nodemon instalado
-npm i nodemon -g
+
+```npm i nodemon -g```
 
 Si ya tiene nodemon en el archivo package.json modificar la linea que dice 
 "scripts" : {
