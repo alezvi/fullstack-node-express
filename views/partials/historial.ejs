@@ -1,0 +1,11 @@
+<div class="container products-wrapper">
+	<div class="row">
+		<div class="col-12">
+			<h2 class="products-title"><%= title %></h2>
+		</div>
+
+		<% products.forEach(function (product) { %>
+			<%- include('item', {product: product}); %>
+		<% }); %>
+	</div>
+</div>
