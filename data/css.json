@@ -1,0 +1,6 @@
+[
+    {"url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"},
+    {"url": "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"},
+    {"url": "/stylesheets/bootstrap-grid.min.css"},
+    {"url": "/stylesheets/app.css"}
+]
